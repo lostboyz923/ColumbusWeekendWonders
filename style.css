@@ -1,0 +1,95 @@
+/* Reset some default styles for better consistency across browsers */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-bottom: 15px;
+    text-align: center; 
+}
+
+/* Set up a simple color palette */
+:root {
+    --primary-color: #3498db; /* Blue */
+    --secondary-color: #2980b9; /* Darker Blue */
+    --text-color: #333; /* Dark Gray */
+    --background-color: #fff; /* White */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    background-image: url('../pictures/deer.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Link styles */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+/* Header styles */
+header {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav {
+    background-color: var(--secondary-color);
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Dipped button styles (use the class in your HTML) */
+.dipped-button {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dipped-button:hover {
+    background-color: var(--secondary-color);
+}
+
+
+
+
+
